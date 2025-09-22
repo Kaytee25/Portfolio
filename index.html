@@ -30,18 +30,23 @@
     </div>
     <img src="keith.jpg" alt="Keith Mutabvuri" class="hero-img-floating">
   </section>
+
   <!-- NAVBAR -->
   <nav class="navbar" aria-label="Main navigation">
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
+    <a href="#timeline">Experience</a>
+    <a href="#testimonials">Testimonials</a>
     <a href="#contact">Contact</a>
   </nav>
+
   <main>
+    <!-- ABOUT SECTION -->
     <section id="about">
       <h2>About Me</h2>
       <p>
-        Hi! I'm Keith Mutabvuri, a passionate web developer who loves building beautiful and functional websites. I enjoy learning new technologies and turning ideas into reality.
+        Hi! I'm Keith Mutabvuri, a passionate web developer who loves building beautiful and functional websites. I enjoy learning new technologies and turning ideas into reality. Outside of coding, I’m interested in photography, gaming, and exploring how technology can improve everyday life.
       </p>
       <div class="highlight-card">
         <h3>Quick Facts</h3>
@@ -49,9 +54,13 @@
           <li>🌍 Based in Zimbabwe</li>
           <li>🎓 BSc in Computer Science</li>
           <li>💡 Always learning something new</li>
+          <li>📸 Photography enthusiast</li>
+          <li>🎮 Gamer at heart</li>
         </ul>
       </div>
     </section>
+
+    <!-- SKILLS SECTION -->
     <section id="skills">
       <h2>Skills</h2>
       <div class="skills-grid">
@@ -75,26 +84,65 @@
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
           <span>Node.js</span>
         </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+          <span>Python</span>
+        </div>
       </div>
     </section>
-    <section id="projects" class="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li class="project-card">
-          <div class="project-card-content">
-            <img src="keith.jpg" alt="Keith Mutabvuri" class="project-thumb" style="width:120px;height:120px;border-radius:18px;">
-            <div>
-              <strong>Personal Portfolio</strong><br>
-              <span>A showcase of my skills and projects. (You're looking at it!)</span>
-              <div class="project-links">
-                <a href="#">Live Demo</a>
-                <a href="#">Source Code</a>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
+
+   <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects">
+  <h2>Projects</h2>
+  <ul>
+  <li class="project-card">
+  <div class="project-card-content">
+  <img src="keith.jpg" alt="Personal Portfolio" class="project-thumb">
+  <div>
+  <strong>Personal Portfolio</strong><br>
+  <span>A showcase of my skills and projects. (You're looking at it!)</span>
+  <div class="project-links">
+  <a href="#">Live Demo</a>
+  <a href="#">Source Code</a>
+  </div>
+  </div>
+  </div>
+  </li>
+  </ul>
+  </section>
+
+    <!-- TIMELINE SECTION -->
+    <section id="timeline">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-event">
+          <h3>BSc in Computer Science</h3>
+          <p>National University of Science and Technology | 2025 - present</p>
+        </div>
+        <div class="timeline-event">
+          <h3>Freelance Web Developer</h3>
+          <p>2025 - Present</p>
+        </div>
+      </div>
     </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonial-item">
+        <p class="testimonial-content">“Keith is an excellent developer with an eye for detail. His designs are both functional and visually appealing.”</p>
+        <p class="testimonial-author">— Liberty Mutabvuri, Mentor</p>
+      </div>
+    </section>
+
+    <!-- EXTRA SECTION -->
+    <section class="extra-section">
+      <h2>Want to Collaborate?</h2>
+      <p>I’m always open to exciting new projects and opportunities. Let’s build something amazing together!</p>
+      <a href="#contact">Get in Touch</a>
+    </section>
+
+    <!-- CONTACT SECTION -->
     <section id="contact">
       <h2>Contact</h2>
       <form class="contact-form" autocomplete="off" onsubmit="return false;">
@@ -106,7 +154,7 @@
       </form>
       <p>
         Email: <a href="mailto:mutabvurik@gmail.com">mutabvurik@gmail.com</a><br>
-        LinkedIn: <a href="https://www.linkedin.com/in/keith-mutabvuri-7b73ba328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener">keithmutabvuri</a>
+        LinkedIn: <a href="https://www.linkedin.com/in/keith-mutabvuri-7b73ba328" target="_blank" rel="noopener">keithmutabvuri</a>
       </p>
       <div class="social-links">
         <a href="https://www.facebook.com/keith.mutabvuri?mibextid=rS40aB7S9Ucbxw6v" target="_blank" title="Facebook" aria-label="Facebook">
@@ -124,10 +172,13 @@
       </div>
     </section>
   </main>
+
   <footer>
     &copy; 2025 Keith Mutabvuri
   </footer>
+
   <button id="scrollTopBtn" aria-label="Scroll to top" title="Scroll to top">&#8679;</button>
+
   <script>
     // Typing effect for header subtitle
     const typedText = document.querySelector('.typed-text');
