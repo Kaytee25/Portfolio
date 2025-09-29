@@ -1,0 +1,40 @@
+body.dark-mode {
+  background: #181c24;
+  color: #e3e6ee;
+}
+body.dark-mode .navbar,
+body.dark-mode .highlight-card,
+body.dark-mode .skill-card,
+body.dark-mode .project-card,
+body.dark-mode .timeline-event,
+body.dark-mode .testimonial-item,
+body.dark-mode .extra-section,
+body.dark-mode .contact-form {
+  background: #23283a !important;
+  color: #e3e6ee !important;
+  border-color: #2d334d !important;
+}
+body.dark-mode .profile-pic-animated {
+  border-color: #23283a;
+  box-shadow: 0 0 0 6px #a0e9ff, 0 8px 32px rgba(0,0,0,0.28);
+}
+#darkModeToggle {
+  position: fixed;
+  top: 18px;
+  right: 24px;
+  z-index: 1000;
+  background: #fff;
+  color: #222;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+body.dark-mode #darkModeToggle {
+  background: #23283a;
+  color: #f5f5f5;
+}

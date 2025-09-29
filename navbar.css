@@ -1,0 +1,22 @@
+.navbar {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.navbar a {
+  color: #fff;
+  background: #007acc;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  margin: 0 0.3rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,122,204,0.10);
+  display: inline-block;
+}
+.navbar a:hover {
+  background: #fff;
+  color: #007acc;
+  box-shadow: 0 4px 16px rgba(0,122,204,0.15);
+  text-decoration: none;
+}
